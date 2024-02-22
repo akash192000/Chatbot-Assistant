@@ -1,0 +1,136 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+
+  {
+    "response_type": "name",
+    "user_input": ["what", "is", "your", "name","who", "are", "you","should", "I", "call", "you"],
+    "bot_response": ["You can call me bot","But my friends calls me Megabot"],
+    "required_words": ["your","name"]
+  },
+
+  {
+    "response_type": "courses",
+    "user_input": ["what","courses","are", "available","offered", "how", "many" ,"courses", "there", "in" ,"this" ,"college"],
+    "bot_response": ["The JECRC University course details are: For Bachelors Degree in B.Com, BBA, B.Tech, BCA, B.Sc, BA, and many more... \nFor Masters Degree in M.Com, MBA, M.Tech, MCA, M.Sc, MA, and many more..."],
+    "required_words": ["courses","college"]
+  },
+
+   {
+     "response_type": "courseDuration",
+     "user_input": ["how", "long", "will", "be", "BCA", "or", "BBA", "course", "how", "long", "will", "it", "take", "to", "complete" ,"BCA" ,"or","BBA", "course"],
+     "bot_response": ["Our college offers 3 year long BCA course and 3 year long BBA course."],
+     "required_words": ["long","course"]
+  },
+
+   {
+     "response_type": "Location",
+     "user_input": ["location","where", "is", "it", "located","what", "of" ,"the", "college"],
+     "bot_response": ["JECRC University, Vidhani, Jaipur, Rajasthan, 303905"],
+     "required_words": ["located"]
+  },
+
+  {
+    "response_type": "semesters",
+    "user_input": ["how" ,"many", "semesters","semester", "are", "there", "in", "a", "year","one", "should", "study", "in" ,"a", "year"],
+    "bot_response": ["There are two semesters in a year."],
+    "required_words": ["in","year"]
+  },
+
+  {
+    "response_type": "semDuration",
+    "user_input": ["how", "many", "months", "are", "there", "in", "a", "semester","how", "long", "will", "be","single"],
+    "bot_response": ["The single semester will be around 4 months."],
+    "required_words": ["long","semester"]
+  },
+
+  {
+    "response_type": "studentRequirements",
+    "user_input": ["what", "are", "the", "student", "requirements","criteria", "for", "admission","entry"],
+    "bot_response": ["Academic Level\nNEB +2 overall aggregate of 2.2 CGPA (55%) or above with each subject (theory and practical) grade D+ or above, and SEE Mathematics score of C+ ( 50%) or above.\nFor A-Levels, a minimum of 3.5 credits and atleast a grade of D and above.\n\nEnglish Proficiency\nEnglish NEB XII Marks greater or equals to 60% or 2.4 GPA\nFor Level 4 or Year 1 BIT\nPass in General Paper or English Language or IELTS 5.5 or PTE 47/ Meeting UCAS Tariff points of 80.\nFor Level 4 or Year 1 BBA\nPass in General Paper or English Language or IELTS 5.5 or PTE 47/ Meeting UCAS Tariff points of 96."],
+    "required_words": ["addmission"]
+  },
+
+  {
+    "response_type": "classes",
+    "user_input": ["how", "many", "classes", "will", "be", "there", "in", "a", "day","long", "are", "the", "classes"],
+    "bot_response": ["There may be two or three classes per day. Each class will be of 1 hour and 30 minutes."],
+    "required_words": ["classes","in","a","day"]
+  },
+
+  {
+    "response_type": "teachingStyle",
+    "user_input": ["what", "is", "the", "teaching", "style", "of", "this", "college","Is", "the", "teaching", "pattern", "different", "from", "other", "college","what", "is", "the", "teaching", "format"],
+    "bot_response": ["Our college has different teaching patterns than other colleges. We adopt a Global teaching methodology, following the LTW techniques which stands for Lecture, Tutorial and Workshop.\nYou can provide us with your contact details and our counselors shall reach out to you and provide you with further details."],
+    "required_words": ["teaching","style"]
+  },
+
+  {
+    "response_type": "exams",
+    "user_input": ["what", "are","the", "exams","like","What", "is","the", "exam", "pattern"],
+    "bot_response": ["There are assignments which carry more weight than your written exams. The assignments have deadlines which you should not exceed if you want to get better marks."],
+    "required_words": ["exam","pattern"]
+  },
+
+  {
+    "response_type": "hours",
+    "user_input": ["what", "are", "your", "hours","when", "are","you", "guys", "open","of", "operation"],
+    "bot_response": ["You can message us here at any hours. But our college premises will be open from 7:00 am to 5:00 pm only."],
+    "required_words": ["open"]
+  },
+
+  {
+    "response_type": "funActivities",
+    "user_input": ["will","there","be","any","extra","curriculum","activities","does","the","college","conducts","any","program"],
+    "bot_response": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Carnival, Holi festival, and Christmas. \n Also our college has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."],
+    "required_words": ["curriculum","activities"]
+  },
+
+  {
+    "response_type": "invalid",
+    "user_input": ["","gvsd","asbhk"],
+    "bot_response": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+    "required_words": []
+  },
+
+  {
+    "response_type": "thanks",
+    "user_input": ["Thanks","thank","Thank","you", "That's","helpful", "Awesome", "helping", "me"],
+    "bot_response": "Happy to help!",
+    "required_words": []
+  }
+]
